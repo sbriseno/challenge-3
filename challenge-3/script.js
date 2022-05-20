@@ -2,12 +2,16 @@
 var letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
 var special = "!@#$%^&*_+-=";
-
-
+const range = (8,128)
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
-var generatePassword     
+var generatePassword
+function generatePassword() {
+  
+  
+
+}
 
 // Write password to the #password input
 function writePassword() {
