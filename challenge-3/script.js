@@ -5,7 +5,7 @@ var password = "";
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
-var generatePassword
+var generatePassword;
 function generatePassword() {
 for (var i=0; i<=range; i++) {
     var randomNumber= Math.floor(Math.random() * chars.length);
@@ -27,7 +27,7 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword) 
+generateBtn.addEventListener("click", writePassword) ;
 function Reset(){
   document.querySelector("Reset").Reset
 }
